@@ -1,0 +1,123 @@
+kepin 1402018158
+bedul 1402018139
+vino 1402018124
+surli 1402018182
+
+backup index mengajar
+   <?php if (session()->get('role') == 'Mahasiswa') : { ?>
+                            <tbody>
+                                <?php
+                                foreach ($stupen as $a) : ?>
+                                    <tr>
+                                        <th scope="row"> <?= $a['id']; ?></th>
+                                        <td><?= $a['nama_mahasiswa']; ?></td>
+                                        <td><?= $a['npm_mahasiswa']; ?></td>
+                                        <td><?= $a['bentuk_kegiatan']; ?></td>
+                                        <td><?= $a['status']; ?></td>
+                                        <td><?= $a['ket_status']; ?></td>
+                                        <td><?= $a['status2']; ?></td>
+                                        <td><?= $a['ket_status2']; ?></td>
+                                        <td>
+
+                                            <?php if (session()->get('role') == 'Mahasiswa') : { ?>
+                                                    <?php
+                                                    if ($a['status'] == "Approve" && $a['status2'] == "Reject") {
+                                                    ?>
+                                                        <!-- <a href="/komitmen/Verifikasi/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Edit</a> -->
+                                                    <?php } elseif ($a['status'] == "Reject" && $a['status2'] != "Approve") {
+                                                    ?>
+                                                        <!-- <a href="/komitmen/Verifikasi/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Edit</a> -->
+                                                    <?php
+                                                    }
+                                                    ?>
+                                            <?php }
+                                            endif; ?>
+
+                                            <?php if (session()->get('role') == 'Dosen') : { ?> <?php
+                                                                                                if ($a['status'] == "") {
+                                                                                                ?>
+                                                        <a href="/komitmen/lanjut/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Verifikasi</a>
+                                                    <?php  } ?>
+                                            <?php }
+                                            endif; ?>
+                                            <?php if (session()->get('role') == 'Dosen') : { ?>
+                                                    <a href="/komitmen/lanjut2/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Verifikasi</a>
+                                            <?php }
+                                            endif; ?>
+                                            <?php if (session()->get('role') == 'Mahasiswa') : { ?> <?php
+                                                                                                    if ($a['status'] == "Approve" && $a['status2'] == "Approve") {                                         ?>
+                                                        <a href="/komitmen/generate/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Download</a>
+                                                    <?php  } elseif ($a['status'] == "Reject") {
+                                                                                                        # code...
+                                                    ?>
+
+                                                    <?php
+                                                                                                    } ?>
+                                            <?php }
+                                            endif; ?>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        <?php } ?>
+                    <?php endif; ?>
+
+
+backup index stupen
+   <?php if (session()->get('role') == 'Mahasiswa') : { ?>
+                            <tbody>
+                                <?php
+                                foreach ($ngajar as $a) : ?>
+                                    <tr>
+                                        <th scope="row"> <?= $a['id']; ?></th>
+                                        <td><?= $a['nama_mahasiswa']; ?></td>
+                                        <td><?= $a['npm_mahasiswa']; ?></td>
+                                        <td><?= $a['bentuk_kegiatan']; ?></td>
+                                        <td><?= $a['status']; ?></td>
+                                        <td><?= $a['ket_status']; ?></td>
+                                        <td><?= $a['status2']; ?></td>
+                                        <td><?= $a['ket_status2']; ?></td>
+                                        <td>
+
+                                            <?php if (session()->get('role') == 'Mahasiswa') : { ?>
+                                                    <?php
+                                                    if ($a['status'] == "Approve" && $a['status2'] == "Reject") {
+                                                    ?>
+                                                        <!-- <a href="/mengajar/Verifikasi/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Edit</a> -->
+                                                    <?php } elseif ($a['status'] == "Reject" && $a['status2'] != "Approve") {
+                                                    ?>
+                                                        <!-- <a href="/mengajar/Verifikasi/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Edit</a> -->
+                                                    <?php
+                                                    }
+                                                    ?>
+                                            <?php }
+                                            endif; ?>
+
+                                            <?php if (session()->get('role') == 'Dosen') : { ?> <?php
+                                                                                                if ($a['status'] == "") {
+                                                                                                ?>
+                                                        <!-- <a href="/mengajar/lanjut/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Verifikasi</a> -->
+                                                    <?php  } ?>
+                                            <?php }
+                                            endif; ?>
+                                            <?php if (session()->get('role') == 'Dosen') : { ?>
+                                                    <!-- <a href="/mengajar/lanjut2/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Verifikasi</a> -->
+                                            <?php }
+                                            endif; ?>
+                                            <?php if (session()->get('role') == 'Mahasiswa') : { ?> <?php
+                                                                                                    if ($a['status'] == "Approve" && $a['status2'] == "Approve") {                                         ?>
+                                                        <a href="/mengajar/generate/<?= $a['nama_mahasiswa']; ?>" class="btn btn-primary">Download</a>
+                                                    <?php  } elseif ($a['status'] == "Reject") {
+                                                                                                        # code...
+                                                    ?>
+
+                                                    <?php
+                                                                                                    } ?>
+                                            <?php }
+                                            endif; ?>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        <?php } ?>
+                    <?php endif; ?>

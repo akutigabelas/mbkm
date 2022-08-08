@@ -1,0 +1,33 @@
+NIDN 	: 0304048301
+Nama Lengkap 	: HERIKA HAYURANI, S.Kom, M.Kom
+NIDN 	: 0307026401
+Nama Lengkap 	: HERI YUGASWARA, S.Si, M.T
+NIDN 	: 0308077601
+Nama Lengkap 	: UMMI AZIZAH RACHMAWATI, SKom, MKom
+
+kedokteran umum
+NIDN 	: 0308097302
+Nama Lengkap 	: dr. ZULFAN, Sp.PD
+NIDN 	: 0304058101
+Nama Lengkap 	: dr. ZWASTA PRIBADI MAHARDHIKA, MMedEd
+NIDN 	: 0309047402
+Nama Lengkap 	: dr. RIKA FERLIANTI
+NIDN 	: 0308017702
+Nama Lengkap 	: dr. MIRANTI PUSPARINI, M.Pd
+
+manajemen
+NIDN 	: 0309046704
+Nama Lengkap 	: RINI HIDAYATI, SE, MM
+NIDN 	: 0017105801
+Nama Lengkap 	: MUHAMMAD SYAMSUL MUSTOFA
+
+
+hukum
+NIDN 	: 0308067006
+Nama Lengkap 	: H. SH HABAN ROFIQ, MH
+NIDN 	: 0306127701
+Nama Lengkap 	: EVIE RACHMAWATI NUR ARIYANTI, SH., MH
+
+
+531141106018
+dosen ti itu tengahnya 11411

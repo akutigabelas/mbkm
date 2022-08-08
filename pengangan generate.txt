@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #000000;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="font-size:14px solid; text-align:center ">
+        <title>SURAT REKOMENDASI MAHASISWA PROGRAM MAGANG DAN STUDI INDEPENDEN BERSERTIFIKAT KAMPUS MERDEKA</title>
+        <p>No:</p>
+    </div>
+
+    <br> Yang bertanda tangan di bawah ini:<br>
+    <br> Nama &nbsp;&nbsp;&nbsp;&nbsp;: Dr. dr. Wening Sari, M.Kes.<br>
+    <br> Jabatan&nbsp;&nbsp;: Wakil Rektor I<br>
+    <br> NIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: 53111110008<br>
+    <br> E-mail &nbsp;&nbsp;&nbsp; : wening.sari@yarsi.ac.id<br>
+    <br> No Telp &nbsp;&nbsp;: 0838-7174-4813<br>
+
+    <p></p>
+
+    <br> Menyetujui daftar nama Mahasiswa Berikut :<br>
+
+
+    <br> Nama Mahasiswa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?= $hasil['nama_mahasiswa'] ?><br>
+    <br> NPM Mahasiswa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?= $hasil['npm_mahasiswa'] ?><br>
+    <br> Program Studi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?= $hasil['program_studi'] ?><br>
+    <br> Fakultas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?= $hasil['fakultas'] ?><br>
+    <br> Semester &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?= $hasil['semester'] ?><br>
+    <br> IPK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <?= $hasil['ipk'] ?><br>
+    <br> Jumlah SKS yang sudah ditempuh dan lulus : <?= $hasil['jumlah_sks'] ?> SKS<br>
+
+    <p style="text-align:justify">
+        <br>untuk menjadi peserta program Magang dan Studi Independen Bersertifikat Tahun 2022 dengan<br>
+        <br>ketentuan:<br>
+    </p>
+    <p style="text-align:justify">
+        1.&nbsp;Mahasiswa akan mengikuti Program Magang dan Studi Independen Bersertifikat Tahun 2022 <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;secara penuh dan bertanggung jawab;<br>
+    </p>
+    <p style="text-align:justify">
+        2.&nbsp;Mahasiswa sanggup ditempatkan di mitra - mitra program Magang dan Studi Independen <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Bersertifikat di seluruh wilayah Indonesia sesuai dengan hasil seleksi dan proses konsolidasi <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;antara prodi asal mahasiswa terpilih dengan Mitra Industri yang telah ditetapkan;
+    </p>
+    <p style="text-align:justify">
+        3.&nbsp;Mahasiswa sanggup melakukan perjalanan lintas kabupaten/kota/provinsi/negara jika diperlukan <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;sesuai penempatan yang ditetapkan oleh mitra program Magang dan Studi Independen <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Bersertifikat dengan memperhatikan secara ketat protokol kesehatan. <br>
+    </p>
+    <p style="text-align:justify">
+        Selain hal tersebut di atas, sebagai bentuk dukungan dan fasilitasi bagi mahasiswa, <br>
+        kami menyatakan kesediaan untuk:
+    </p>
+    <p style="text-align:justify">
+        1.&nbsp;Memberikan dukungan sepenuhnya serta bertanggung jawab atas mahasiswa selama mengikuti<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;program Magang dan Studi Independen Bersertifikat Tahun 2022 sejak awal sampai akhir<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;program;
+    </p>
+    <p style="text-align:justify">
+        2.&nbsp;Mendukung proses belajar mahasiswa melalui pengalaman Magang dan Studi Independen <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Bersertifikat Tahun 2022;
+    </p>
+    <p style="text-align:justify">
+        3.&nbsp;Memberikan pengakuan dan konversi 20 sks atau hal-hal yang sudah menjadi kesepakatan<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;antara prodi asal mahasiswa dengan mitra industri bagi mahasiswa setelah penyelesaian<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;program Magang dan Studi Independen Bersertifikat Tahun 2022. Demikian surat rekomendasi<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;ini kami sampaikan untuk dipergunakan sebagaimana mestinya.<br>
+    </p>
+    <p></p>
+    <p style="text-align: right;">
+        Jakarta, <?= date('d F Y'); ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <p style="text-align:right">
+        <u>Dr. dr. Wening Sari, M.Kes.</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+        Wakil Rektor I Universitas YARSI
+    </p>
+    <p></p>
+    <p class="" style="text-align:justify">
+        Notes : <br>
+        *Surat rekomendasi dapat ditandatangani minimal oleh Kaprodi <br>
+        *Tandatangan digital yang disertai cap dan dikeluarkan dari bagian akademik dapat diterima dan <br> &nbsp; dianggap sah <br>
+        *Dalam mengajukan surat rekomendasi, mahasiswa perlu melampirkan daftar program yang akan <br> &nbsp; dilamar sebagai informasi kepada perguruan tinggi
+    </p>
+
+</body>
+
+</html>
